@@ -63,14 +63,15 @@ export const HeroSection = ({ onStart }: HeroSectionProps) => {
         </div>
 
         <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-          Discover Your
+          သင့်ရဲ့
           <span className="block bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-            Personality Type
+            ကိုယ်ရည်ကိုယ်သွေး
           </span>
+          ကို ရှာဖွေပါ
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-lg mx-auto leading-relaxed">
-          Uncover insights about yourself through our thoughtfully crafted personality assessment. Just 5 questions to reveal your unique traits.
+          သေချာစွာ ပြင်ဆင်ထားတဲ့ ကိုယ်ရည်ကိုယ်သွေး စစ်ဆေးမှုနဲ့ သင့်ကိုယ်သင် ပိုမိုသိရှိလာပါ။ မေးခွန်း ၅ ခုနဲ့ သင့်ရဲ့ ထူးခြားတဲ့ လက္ခဏာတွေကို ဖော်ထုတ်ပါ။
         </p>
 
         <motion.button
@@ -79,11 +80,11 @@ export const HeroSection = ({ onStart }: HeroSectionProps) => {
           whileTap={{ scale: 0.95 }}
           className="px-10 py-4 bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold text-lg rounded-full shadow-elevated hover:shadow-card transition-shadow"
         >
-          Start the Test
+          စတင်မည်
         </motion.button>
 
         <p className="mt-6 text-sm text-muted-foreground">
-          Takes only 2 minutes • 100% Free
+          ၂ မိနစ်သာ ကြာပါမည် • အခမဲ့
         </p>
       </motion.div>
     </div>

@@ -60,7 +60,7 @@ export const ResultCard = ({ result, onRetake }: ResultCardProps) => {
             transition={{ delay: 0.6 }}
           >
             <h3 className="font-display text-lg font-semibold text-foreground mb-4">
-              Your Strengths
+              သင့်အားသာချက်များ
             </h3>
             <div className="flex flex-wrap gap-2">
               {result.strengths.map((strength, index) => (
@@ -87,10 +87,11 @@ export const ResultCard = ({ result, onRetake }: ResultCardProps) => {
             className="w-full mt-8 py-4 px-6 bg-muted hover:bg-muted/80 text-foreground rounded-xl font-medium transition-colors flex items-center justify-center gap-2"
           >
             <RotateCcw className="w-5 h-5" />
-            Take the test again
+            ထပ်မံစစ်ဆေးမည်
           </motion.button>
         </div>
       </div>
     </motion.div>
   );
 };
+

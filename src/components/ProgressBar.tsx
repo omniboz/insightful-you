@@ -11,7 +11,7 @@ export const ProgressBar = ({ current, total }: ProgressBarProps) => {
   return (
     <div className="w-full max-w-md mx-auto mb-8">
       <div className="flex justify-between text-sm text-muted-foreground mb-2">
-        <span>Question {current} of {total}</span>
+        <span>မေးခွန်း {current} / {total}</span>
         <span>{Math.round(progress)}%</span>
       </div>
       <div className="h-2 bg-muted rounded-full overflow-hidden">
